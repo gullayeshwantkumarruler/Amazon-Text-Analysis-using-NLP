@@ -1,0 +1,39 @@
+6. Deep neural network models for evaluating the helpfulness of Amazon reviews
+
+To develop a deep neural model to assess the helpfulness of a customer review based 
+on its text and identify characteristics of helpful and unhelpful reviews.
+ The project will be carried out on a large collection of Amazon reviews of consumer products, such as mobile phones, laptops, TV sets, etc. 
+Data on each review includes the text of the review, the id of the author, the date of the review, 
+the helpfulness score of the review (the number of readers who found the review helpful and the number of those who found it unhelpful). 
+The main stages on the project will include text preprocessing and experimental evaluation of deep neural networks to classify reviews 
+by their helpfulness. The project will be expected to use Python for the experimental part of the project.
+
+
+
+1) Define project title.
+
+Ans) Deep neural network models for evaluating the helpfulness of Amazon reviews
+
+Describe which data you intend to use (provide a link):
+
+Ans) I would like to use the dataset about Amazon rreviews from the Hugging face website.
+Link to dataset -  https://huggingface.co/datasets/amazon_us_reviews/viewer/Home_Entertainment_v1_00/train
+All the required columns like review text, id, helpfulness score etc are present in this data.
+
+3) List 5-10 keywords describing your proposed project. E.g., Data Envelopment Analysis, resource allocation, decision making, efficiency analysis, railway
+
+Ans) I would most likely look into the important NLP part of it, i.e. using the review text for analysis. 
+I would start by Loading data, preprocessing text, Using vectorization methods to convert text to vectors and then build model on it.
+And I would also dwell deep into deep learning based embedding techniques like Glove vectors and state of the art NLP models like transformers.
+I would also perform some sentiment analysis along the use of helpfullness score. I would perform the best preprocessing on the text that is feasible.
+Flow-
+1. Data Loading
+2. Data/Text Preprocessing
+3. Data Analysis
+4. Feature Engineering/Word EMbedding
+5. Model building and Training
+6. Model Evaluation
+7. Final inference and Conclusion
+
+If you've had a preliminary discussion with a supervisor and they have agree to supervise your project, please state their name, in the format: FirstName SecondName. Leave this field blank, if you have not received such an agreement from a supervisor.
+
